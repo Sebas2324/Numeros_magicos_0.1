@@ -1,0 +1,41 @@
+/numeros-magicos/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── tuempresa/
+│   │   │           └── numerosmagicos/
+│   │   │               ├── model/
+│   │   │               │   ├── Juego.java          # Lógica principal del juego
+│   │   │               │   └── Jugador.java        # Datos del jugador
+│   │   │               ├── view/
+│   │   │               │   ├── ConsolaUI.java      # Interfaz de consola
+│   │   │               │   └── Mensajes.java       # Textos del juego
+│   │   │               ├── util/
+│   │   │               │   ├── Configuracion.java  # Configuración del juego
+│   │   │               │   └── GeneradorNumeros.java # Lógica de números aleatorios
+│   │   │               └── Main.java               # Punto de entrada
+│   │   └── resources/
+│   │       ├── config/
+│   │       │   └── juego.properties  # Archivo de configuración
+│   │       └── mensajes/
+│   │           └── textos.properties # Textos internacionalizables
+│   │
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── tuempresa/
+│                   └── numerosmagicos/
+│                       ├── model/
+│                       │   └── JuegoTest.java      # Pruebas unitarias
+│                       └── util/
+│                           └── GeneradorNumerosTest.java
+│
+├── lib/                                # Dependencias externas (si las hay)
+├── target/                             # Salida de compilación (generado automáticamente)
+├── docs/                               # Documentación
+│   ├── diseño.md                       # Documento de diseño
+│   └── manual-usuario.md
+├── .gitignore                          # Archivos para ignorar en Git
+└── pom.xml                             # Configuración de Maven (si usas)
