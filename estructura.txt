@@ -1,0 +1,48 @@
+Listado de rutas de carpetas
+El n£mero de serie del volumen es E261-2E31
+C:.
+³   estructura de carpetas
+³   estructura.txt
+³   README.md
+³   
+ÃÄÄÄdocs
+³       dise¤o.md
+³       manual-usuario.md
+³       
+ÀÄÄÄsrc
+    ÃÄÄÄmain
+    ³   ÃÄÄÄjava
+    ³   ³   ÀÄÄÄcom
+    ³   ³       ÀÄÄÄtuempresa
+    ³   ³           ÀÄÄÄnumerosmagicos
+    ³   ³               ÃÄÄÄmodel
+    ³   ³               ³       Juego.java
+    ³   ³               ³       Jugador.java
+    ³   ³               ³       
+    ³   ³               ÃÄÄÄutil
+    ³   ³               ³       Configuracion.java
+    ³   ³               ³       GeneradorNumeros.java
+    ³   ³               ³       Resta.java
+    ³   ³               ³       
+    ³   ³               ÀÄÄÄview
+    ³   ³                       consolaUI.java
+    ³   ³                       Mensajes.java
+    ³   ³                       
+    ³   ÀÄÄÄresources
+    ³       ÃÄÄÄconfig
+    ³       ³       juego.properties
+    ³       ³       
+    ³       ÀÄÄÄmensajes
+    ³               textos.properties
+    ³               
+    ÀÄÄÄtest
+        ÀÄÄÄjava
+            ÀÄÄÄcom
+                ÀÄÄÄtuempresa
+                    ÀÄÄÄnumerosmagicos
+                        ÃÄÄÄmodel
+                        ³       JuegoTest.java
+                        ³       
+                        ÀÄÄÄutil
+                                GeneradorNumerosTest.java
+                                
