@@ -1,0 +1,20 @@
+# Directorio de compilación de Maven/Gradle
+target/
+
+# Archivos específicos de Visual Studio Code
+.vscode/
+
+# Directorios de compilación y dependencias locales
+bin/
+lib/
+
+# Archivos de logs
+*.log
+
+# Archivos compilados de Java
+*.class
+*.tmp
+
+# Ignorar archivos específicos de sistema operativo
+.DS_Store
+Thumbs.db
