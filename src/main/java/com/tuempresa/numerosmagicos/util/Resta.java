@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Resta {
     /**
-     * Realiza la resta entre dos números, pregunta al usuario el resultado
+     * Realiza la resta entre dos números, pregunta al usuario la operación a realizar
      * y verifica si la respuesta es correcta.
      * 
      * @param numero1 Primer número (debe ser mayor que numero2)
