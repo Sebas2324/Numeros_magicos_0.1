@@ -11,8 +11,8 @@ public class Resta {
      * @param numero2 Segundo número
      */
     public static void realizarResta(int numero1, int numero2) {
-        // Verifica que el primer número sea mayor que el segundo
         
-        }
+        
+        
     }
 }
