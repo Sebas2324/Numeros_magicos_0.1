@@ -69,8 +69,7 @@ public class Resta {
         if (esCorrecta) {
             System.out.println("¡Correcto!");
         } else {
-            System.out.printf("Incorrecto. El resultado es: %d%n", 
-                           espacioVacio == 1 ? numero1 : numero2);
+            System.out.printf("Incorrecto. El resultado es: %d%n", resultado);
         }
     }
 
